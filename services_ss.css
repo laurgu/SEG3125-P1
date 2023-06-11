@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "SpaceMono";
+    src: url("fonts/Space_Mono/SpaceMono-Regular.ttf");
+   
+  }
+
+      body {
+        color:#0C1D5A;
+        font-family: "SpaceMono";
+        margin: 0;
+        padding: 0;
+        background-color:#CCB6D4;  /* Set the background color of the body */
+      }   
+
+
+      #logo{
+        margin: 0;
+        height: 10vw;
+        width:10vw;
+      }
+  
+     .nav-link{
+        color:#0C1D5A;
+        font-size:3vw;
+        margin-left:2.3vw;
+        font-weight: bold;
+  
+    }
+  
+    .nav-link.book-link{
+        background-color: #00ff37;
+    }
+  
+  
+    .navbar-custom .navbar-nav .nav-link:hover {
+      background-color: #0C1D5A;
+      color: #CCB6D4;
+    }
+  
+    .navbar-custom {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  
+  .nav-link {
+    white-space: nowrap;
+  }
+  
+
+  .question{
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .invert-colors{
+    background-color: #0C1D5A;
+    color: #CCB6D4;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+#not-sure-msg{
+    font-weight: bold;
+}
+
+
+.services {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.price {
+    margin-top: 0;
+    text-align: right;
+}
+
+
+.container {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col-6 img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.top-space{
+    margin-top: 1%;
+}
+
+.heading{
+    font-size: 5vw;
+}
+
+.description{
+    font-size: 2vw;
+}

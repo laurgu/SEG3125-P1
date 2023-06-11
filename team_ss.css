@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "SpaceMono";
+    src: url("fonts/Space_Mono/SpaceMono-Regular.ttf");
+   
+  }
+
+      body {
+        color:#0C1D5A;
+        font-family: "SpaceMono";
+        margin: 0;
+        padding: 0;
+        background-color:#CCB6D4;  /* Set the background color of the body */
+     
+    }
+ 
+    .invert-colors{
+        background-color: #0C1D5A;
+        color: #CCB6D4;
+    }
+
+    .team-container{
+      margin-left: 7%;
+      margin-right: 7%;
+    }
+  
+    .col-6.square {
+        width: 50%;
+        box-sizing: border-box;
+        float: left;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .col-6.square:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+      }
+
+      .col-6.square img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    
+    .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+      }
+      
+    
+    .name {
+        font-size: 7vw;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .long{
+        font-size: 5vw;
+    }
+    
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-left:0;
+    }
+
+    
+    .col-5, .col-1{
+        margin-left:0;
+        margin-right: 0;
+        position: relative;
+        overflow: hidden;
+    }
+   
+      .col-5{
+        font-size:2.2vw;
+        font-weight: bold;
+      }
+
+      #logo{
+        margin: 0;
+        height: 10vw;
+        width:10vw;
+      }
+
+     .nav-link{
+        color:#0C1D5A;
+        font-size:3vw;
+        margin-left:2.3vw;
+        font-weight: bold;
+
+    }
+  
+    .nav-link.book-link{
+        background-color: #00ff37;
+    }
+  
+  
+    .navbar-custom .navbar-nav .nav-link:hover {
+      background-color: #0C1D5A;
+      color: #CCB6D4;
+    }
+  
+    .navbar-custom {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+ 
+  
+  .nav-link {
+    white-space: nowrap; 
+  }

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="book_ss.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src = "book.js"></script>
+        
+        
+        <title>HAIR ENVY</title>
+
+    </head>
+    <body>
+        <div class = "container">
+        <div class="nav-container">  
+        <nav id="navBar" class="navbar navbar-expand-lg navbar-custom">
+            <a class="navbar-brand" href="#"><img id="logo" src="images/logo.png" alt=""></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link book-link" href="book.html">book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#gallery">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>  
+          
+            <h1 class="instructions">1/4 SELECT YOUR SERVICES</h1>
+            <br><br>
+            <h1 class="book cut">CUT</h1>
+            <br>
+            <div class="row">
+              <div class="col-6">
+                <input class="cut" name="cuts" type="radio" id="cut1">
+                <label for="cut1"><h2 class = "bold">SHORT CUT</h2></label>
+                  <h2 class="price"></h2>
+                  <p class="service-desc">A cut above the jaw</p>
+                  <h3>$50</h3>
+              </div>
+              <div class="col-6">
+                <input class="cut" name="cuts" type="radio" id="cut2">
+                <label for="cut2"><h2 class = "bold">MEDIUM CUT</h2></label>
+                  <p>A cut above the collarbone</p>
+                  <h3>$70</h3>
+              </div>
+              </div>
+              <div class = "row">
+              <div class="col-6">
+                <input class="cut" name="cuts" type="radio" id="cut3">
+                <label for="cut3"><h2 class = "bold">LONG CUT</h2></label>
+                  <p>A cut below the collarbone</p>
+                  <h3>$80</h3>
+              </div>
+              <div class="col-6">
+                <input class = "cut" name = "cuts" type="radio" id = "cut4">
+                <label for="cut4"><h2 class = "bold">BANGS TRIM</h2></label>
+                    <p>Trim for front or side bangs</p>
+                    <h3>$20</h3>
+              </div>
+            </div>
+
+            <br><br><br>
+         
+            <h1 class="book color">COLOR</h1>
+            <br>
+            <div class="row">
+              <div class="col-6">
+                <input type="radio" class="color" name="colors" id="color1">
+                <label for="color1"><h2 class="bold">SOLID COLOR</h2></label>
+                <p>One color all over</p>
+                <h3>$125</h3>
+              </div>
+              <div class="col-6">
+                <input type="radio" class="color" name="colors" id="color2">
+                <label for="color2"><h2 class="bold">HIGHLIGHTS</h2></label>
+                <p>Lighten areas for extra dimension</p>
+                <h3>$155</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input type="radio" class="color" name="colors" id="color3">
+                <label for="color3">
+                  <h2 class="bold">BALAYAGE</h2>
+                </label>
+                <p>Soft gradation towards ends</p>
+                <h3>$155</h3>
+              </div>
+              <div class="col-6">
+                <input type="radio" class="color" name="colors" id="color4">
+                <label for="color4">
+                  <h2 class="bold">ROOT TOUCH-UP</h2>
+                </label>
+                <p>Blend new growth into hair</p>
+                <h3>$75</h3>
+              </div>
+            </div>
+            
+
+            <br><br><br>
+            <h1 class="book style">STYLE</h1>
+            <br>
+            <div class="row">
+              <div class="col-6">
+                <input type="radio" class="style" name="style" id="style1">
+                <label for="style1">
+                  <h2 class="bold">UP-DO</h2>
+                </label>
+                <p>Styled up</p>
+                <h3>$70</h3>
+              </div>
+              <div class="col-6">
+                <input type="radio" class="style" name="style" id="style2">
+                <label for="style2">
+                  <h2 class="bold">CURLED</h2>
+                </label>
+                <p>Using heat tools</p>
+                <h3>$25</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input type="radio" class="style" name="style" id="style3">
+                <label for="style3">
+                  <h2 class="bold">STRAIGHTENED</h2>
+                </label>
+                <p>Using heat tools</p>
+                <h3>$25</h3>
+              </div>
+              <div class="col-6">
+                <input type="radio" class="style" name="style" id="style4">
+                <label for="style4">
+                  <h2 class="bold">BLOW OUT</h2>
+                </label>
+                <p>Blow-dried and styled with a round brush</p>
+                <h3>$50</h3>
+              </div>
+            </div>
+        
+        <div class = "invert-colors">
+        <h1 class="instructions">2/4 SELECT YOUR STYLIST</h1>
+        <br><br><br>
+    
+            <div class = "row">
+                <div class="col-4">
+                    <input type="radio" id="anyone" class="stylist-select" name="stylist-select" checked>
+                    <label for="anyone">
+                      <h3>ANYONE</h3>
+                    </label>
+                    <br><br>
+                  
+                    <input type="radio" id="allison" class="stylist-select" name="stylist-select">
+                    <label for="allison">
+                      <h3>ALLISON</h3>
+                    </label>
+                    <br><br>
+                    
+                    <input type="radio" id="harley" class="stylist-select" name="stylist-select">
+                    <label for="harley">
+                      <h3>HARLEY</h3>
+                    </label>
+                    <br><br>
+                    
+                    <input type="radio" id="kate" class="stylist-select" name="stylist-select">
+                    <label for="kate">
+                      <h3>KATE</h3>
+                    </label>
+                    <br><br>
+                    
+                    <input type="radio" id="mark" class="stylist-select" name="stylist-select">
+                    <label for="mark">
+                      <h3>MARK</h3>
+                    </label>
+                    <br><br>
+                    
+                    <input type="radio" id="patrick" class="stylist-select" name="stylist-select">
+                    <label for="patrick">
+                      <h3>PATRICK</h3>
+                    </label>
+                    <br><br>
+                  
+                    <input type="radio" id="zoey" class="stylist-select" name="stylist-select">
+                    <label for="zoey">
+                      <h3>ZOEY</h3>
+                    </label>
+                    <br><br>
+                  </div>
+                  
+            
+                  <div class="col-8">
+                <h3 class = "bold" id="stylist-name"></h3>
+                <div class="image-container">
+                    <img class ="profile-pic" id = "profile-pic">
+                    <br>
+                  </div>
+                <p class = "stylist-desc-book" id="bio"></p>
+        </div>
+        </div>
+    </div>
+
+
+        <br><br><br>
+
+        <h1 class="instructions">3/4 SELECT YOUR TIME</h1>
+        <br><br><br>
+        <div class = "row">
+            <div class="col-11">
+                <h3 class = "month-year">JUNE 2023</h3>
+            </div>
+            <div class = "col-1 month-year">< ></div>
+        </div>
+        <div class = "row day-time">
+            <div class = "col-1 day"><p>06</p></div>
+            <div class = "col-1 day"><p>07</p></div>
+            <div class = "col-1 day"><p>08</p></div>
+            <div class = "col-1 day"><p>09</p></div>
+            <div class = "col-1 day"><p>10</p></div>
+            <div class = "col-1 day"><p>11</p></div>
+            <div class = "col-1 day"><p>12</p></div>
+        </div>
+        <div class = "row day-time">
+            <div class="col-1 day day1">
+                <input type="button" class="time-buttons" value="10:00"><br><br>
+                <input type="button" class="time-buttons na-date" value="10:30"><br><br>
+                <input type="button" class="time-buttons" value="11:00"><br><br>
+                <input type="button" class="time-buttons na-date" value="11:30"><br><br>
+                <input type="button" class="time-buttons" value="12:00"><br><br>
+                <input type="button" class="time-buttons" value="12:30"><br><br>
+                <input type="button" class="time-buttons na-date" value="13:00"><br><br>
+                <input type="button" class="time-buttons na-date" value="13:30"><br><br>
+                <input type="button" class="time-buttons" value="14:00"><br><br>
+                <input type="button" class="time-buttons na-date" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="time-buttons" value="15:30"><br><br>
+                <input type="button" class="time-buttons na-date" value="16:00"><br><br>
+                <input type="button" class="time-buttons" value="16:30"><br><br>
+                <input type="button" class="time-buttons na-date" value="17:00"><br><br>
+                <input type="button" class="time-buttons" value="17:30"><br><br>
+                <input type="button" class="time-buttons" value="18:00"><br><br>
+            </div>
+            
+            <div class="col-1 day day2">
+                <input type="button" class="na-date time-buttons" value="10:00"><br><br>
+                <input type="button" class="time-buttons" value="10:30"><br><br>
+                <input type="button" class="time-buttons" value="11:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="11:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:00"><br><br>
+                <input type="button" class="time-buttons" value="12:30"><br><br>
+                <input type="button" class="time-buttons" value="13:00"><br><br>
+                <input type="button" class="time-buttons" value="13:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="14:00"><br><br>
+                <input type="button" class="time-buttons" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="time-buttons" value="15:30"><br><br>
+                <input type="button" class="time-buttons" value="16:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:30"><br><br>
+                <input type="button" class="time-buttons" value="17:00"><br><br>
+                <input type="button" class="time-buttons" value="17:30"><br><br>
+                <input type="button" class="time-buttons" value="18:00"><br><br>
+            </div>
+            
+            
+            <div class="col-1 day day3">
+                <input type="button" class="na-date time-buttons" value="10:00"><br><br>
+                <input type="button" class="time-buttons" value="10:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="11:00"><br><br>
+                <input type="button" class="time-buttons" value="11:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:00"><br><br>
+                <input type="button" class="time-buttons" value="12:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="13:00"><br><br>
+                <input type="button" class="time-buttons" value="13:30"><br><br>
+                <input type="button" class="time-buttons" value="14:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="15:30"><br><br>
+                <input type="button" class="time-buttons" value="16:00"><br><br>
+                <input type="button" class="time-buttons" value="16:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="17:00"><br><br>
+                <input type="button" class="time-buttons" value="17:30"><br><br>
+                <input type="button" class="time-buttons" value="18:00"><br><br>
+            </div>
+            
+            <div class="col-1 day day4">
+                <input type="button" class="na-date time-buttons" value="10:00"><br><br>
+                <input type="button" class="time-buttons" value="10:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="11:00"><br><br>
+                <input type="button" class="time-buttons" value="11:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:00"><br><br>
+                <input type="button" class="time-buttons" value="12:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="13:00"><br><br>
+                <input type="button" class="time-buttons" value="13:30"><br><br>
+                <input type="button" class="time-buttons" value="14:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="15:30"><br><br>
+                <input type="button" class="time-buttons" value="16:00"><br><br>
+                <input type="button" class="time-buttons" value="16:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="17:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="17:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="18:00"><br><br>
+            </div>
+            
+            
+            <div class="col-1 day day5">
+                <input type="button" class="na-date time-buttons" value="10:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="10:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="11:00"><br><br>
+                <input type="button" class="time-buttons" value="11:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:30"><br><br>
+                <input type="button" class="time-buttons" value="13:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="13:30"><br><br>
+                <input type="button" class="time-buttons" value="14:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="15:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="17:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="17:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="18:00"><br><br>
+            </div>
+
+            <div class="col-1 day day6">
+                <input type="button" class="na-date time-buttons" value="10:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="10:30"><br><br>
+                <input type="button" class="time-buttons" value="11:00"><br><br>
+                <input type="button" class="time-buttons" value="11:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:30"><br><br>
+                <input type="button" class="time-buttons" value="13:00"><br><br>
+                <input type="button" class="time-buttons" value="13:30"><br><br>
+                <input type="button" class="time-buttons" value="14:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="time-buttons" value="15:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:30"><br><br>
+                <input type="button" class="time-buttons" value="17:00"><br><br>
+                <input type="button" class="time-buttons" value="17:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="18:00"><br><br>
+            </div>
+            
+            <div class="col-1 day day7">
+                <input type="button" class="na-date time-buttons" value="10:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="10:30"><br><br>
+                <input type="button" class="time-buttons" value="11:00"><br><br>
+                <input type="button" class="time-buttons" value="11:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="12:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="13:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="13:30"><br><br>
+                <input type="button" class="time-buttons" value="14:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="14:30"><br><br>
+                <input type="button" class="time-buttons" value="15:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="15:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:00"><br><br>
+                <input type="button" class="na-date time-buttons" value="16:30"><br><br>
+                <input type="button" class="time-buttons" value="17:00"><br><br>
+                <input type="button" class="time-buttons" value="17:30"><br><br>
+                <input type="button" class="na-date time-buttons" value="18:00"><br><br>
+            </div>            
+        </div>
+        <br><br><br>
+
+        <div class="invert-colors">
+        <h1 class = "instructions">4/4 SUMMARY</h1><br>
+        <div class = "row summary-info">
+            <div class="col-6 no-border">
+                <h3 class = "inline bold">Cut: </h3>
+                <p class="selected-services" id="summary-cut">None</p>
+                <h3 class = "inline bold">Color: </h3>
+                <p class="selected-services" id="summary-color">None</p>
+                <h3 class = "inline bold">Style: </h3>
+                <p class="selected-services" id="summary-style">None</p>
+                
+                <h3 class = "inline bold">Stylist: </h3>
+                <p class="selected-stylist" id="summary-stylist"></p>
+                <h3 class = "inline bold">Time: </h3>
+                <p class="selected-services" id="summary-time"></p>
+            </div>
+            <div class="col-6 customer-info">
+             
+                <input type="text" id = "firstname" placeholder="first name">
+                <br><br>
+                <input type="text" id = "lastname" placeholder="last name">
+                <br><br>
+                <input type="email" id = "email" placeholder="email">
+                <br><br>
+                <input type="number" id = "phone-number" placeholder="phone number">
+                 <br><br>
+            </div>
+        </div>
+
+    <div class = "center">
+        <input type="submit" id="book-button" value="BOOK NOW">
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <p><span id="allset"  class = "modal-heading" ></span></p>
+          <p><span class="modal-heading">Name:</span> <span id="name"></span></p>
+          <p><span class="modal-heading">Email:</span> <span id="email"></span></p>
+          <p><span class="modal-heading">Phone:</span> <span id="phone"></span></p>
+          <p><span class="modal-heading">Cut:</span> <span id="cut"></span></p>
+          <p><span class="modal-heading">Color:</span> <span id="color"></span></p>
+          <p><span class="modal-heading">Style:</span> <span id="style"></span></p>
+          <p><span class="modal-heading">Time:</span> <span id="time"></span></p>
+          <p><span class="modal-heading">Stylist:</span> <span id="stylist"></span></p>
+          <p><span class = "modal-heading" id="seeyou"></span></p>
+          <span class="close">&times;</span>
+        </div>
+      </div>
+      
+
+</div>
+</body>
+</html>

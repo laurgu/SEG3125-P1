@@ -108,7 +108,7 @@
   }
 
   #map{
-    width: 80%;
+    width: 50vw;
     height: 50vw;
     overflow: hidden;
   }

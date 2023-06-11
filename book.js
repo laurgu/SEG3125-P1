@@ -153,6 +153,7 @@ bookButton.addEventListener('click', () => {
   const summaryStyle = document.getElementById("summary-style").textContent;
   const summaryTime = document.getElementById("summary-stylist").textContent;
   const summaryStylist = document.getElementById("summary-time").textContent;
+  const summaryRequests = document.getElementById("comments").value;
 
   const modal = document.getElementById('modal');
   const nameElement = document.getElementById('name');
@@ -165,6 +166,7 @@ bookButton.addEventListener('click', () => {
   const stylistElement = document.getElementById('stylist');
   const allSet = document.getElementById("allset");
   const seeYou = document.getElementById("seeyou");
+  const requests = document.getElementById("requests");
   
   // Assuming you have the values stored in variables
   nameElement.textContent = `${firstName} ${lastName}`;
@@ -175,10 +177,15 @@ bookButton.addEventListener('click', () => {
   styleElement.textContent = summaryStyle;
   timeElement.textContent = summaryTime;
   stylistElement.textContent = summaryStylist;
-  allset.textContent = "You're all set! Here are your appointment details!";
+  allSet.textContent = "You're all set! Here are your appointment details!";
   seeYou.textContent = "We can't wait to see you " + firstName + "!";
   
-  // Display the modal
+  if(summaryRequests === ""){
+    requests.textContent = " None";
+  }else{
+  requests.textContent = summaryRequests;
+
+  }
   modal.style.display = 'block';
 });
 

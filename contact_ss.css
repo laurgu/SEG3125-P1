@@ -12,7 +12,7 @@
         background-color:#CCB6D4;  /* Set the background color of the body */
       }   
       
-      .container {
+      .contact-container {
         margin-left: 10%;
         margin-right: 10%;
       }
@@ -112,5 +112,11 @@
   .icon{
     height:5vw;
     width:5vw;
+  }
+
+  .map{
+    width: 10vw;
+    width: 10vw;
+    overflow: hidden;
   }
 

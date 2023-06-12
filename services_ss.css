@@ -84,13 +84,6 @@
     text-align: right;
 }
 
-
-.container {
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .col-6 img{
     width: 100%;
     height: auto;
@@ -106,5 +99,6 @@
 }
 
 .description{
-    font-size: 3vw;
+  max-width: 100%;
+  font-size: 3vw;
 }
